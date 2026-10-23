@@ -351,13 +351,6 @@ if active_video and os.path.exists(active_video):
 # Step 2: Classroom Dialogue & Audio Track
 st.markdown("##### 💬 Classroom Dialogue & Spoken Audio Track")
 
-st.markdown("""
-<div style="background: rgba(15, 23, 42, 0.6); border: 1px solid rgba(148, 163, 184, 0.2); border-radius: 8px; padding: 12px; margin-bottom: 12px; font-size: 0.9rem; color: #CBD5E1;">
-    <strong>📌 Why is a transcript required?</strong>
-    The 8x8 rubric evaluates 4 spoken pedagogical dimensions: <em>Rapport & Warmth (20%)</em>, <em>Individual Inclusivity (25%)</em>, <em>Vocal Energy & Praise (20%)</em>, and <em>Homework Assignment (20%)</em>. 
-    Without spoken dialogue, the AI cannot verify if the teacher greeted each child by name or assigned homework.
-</div>
-""", unsafe_allow_html=True)
 
 # Priority for dialogue:
 # 1. Custom uploaded VTT / TXT
