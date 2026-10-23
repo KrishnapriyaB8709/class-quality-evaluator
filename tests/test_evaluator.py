@@ -1,3 +1,9 @@
+import os
+import sys
+
+# Ensure repository root is in sys.path for standalone execution
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from src.samples import BENCHMARK_SAMPLES
 from src.evaluator import run_evaluation
 from src.metrics import extract_transcript_metrics
