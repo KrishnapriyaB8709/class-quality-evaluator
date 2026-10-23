@@ -1,0 +1,33 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Secrets & Environment variables
+.env
+.env.*
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Temporary video & audio files
+data/*.wav
+data/*.mp3
+data/*.mp4
+data/temp_upload.*
+*.mp4
+*.wav
+*.mp3
+
+# Streamlit
+.streamlit/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
