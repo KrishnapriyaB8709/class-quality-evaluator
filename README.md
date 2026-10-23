@@ -106,7 +106,6 @@ python test_evaluator.py
 ---
 
 ## 📝 300-Word Approach & Limitations Summary
-*(Formatted for challenge submission)*
 
 > **Approach & Rationale**:  
 > To recognize what makes a great online class for children, we synthesized 8x8 reviewer evaluations into a 5-pillar pedagogical rubric: Rapport & Warmth (20%), Individual Inclusivity (25%), Vocal Energy & Delivery (20%), Visual Setup/Camera Hygiene (15%), and Lesson Structure/Homework (20%). We engineered a synergistic Dual-AI architecture: Google Gemini Vision evaluates 6 milestone video keyframes for virtual background compliance and camera continuity, while Grok powers sub-second audio transcription (Whisper Large v3 Turbo) and rapid pedagogical reasoning. An offline calibrated deterministic engine provides an infallible safety net, extracting objective interaction signals (unique student names called, question frequency, positive affirmation density, homework keywords, and camera/background compliance flags).
